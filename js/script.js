@@ -78,7 +78,7 @@ else {
 
 
 let gender = "Male"
-let age = 20 
+let age = 25
 let area ="Dinajpur"
 let salary = 100000
 
