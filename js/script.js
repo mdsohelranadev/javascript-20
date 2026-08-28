@@ -14,20 +14,17 @@ else {
 
 
 
-let results =400
-
-
-
-if (results>100){
+// result start
+let results = 88
+if (results > 100) {
     console.log("tom bohot chalak banda ho");
 }
 
+else if (results >= 0 && results < 33) {
+    console.log(" Fail");
+}
 
-//  else if (results >=0 && results>=32){
-//     console.log("Fail");
-// }
-
- else if (results >= 33 && results < 40) {
+else if (results >= 33 && results < 40) {
     console.log(" grade ___ D");
 }
 
@@ -47,9 +44,70 @@ else if (results >= 70 && results < 80) {
     console.log("grade ___ A");
 }
 
-else if (results >= 80 && results < 100) {
+else if (results >= 80 && results < 101) {
     console.log("grade ___ A+");
 }
-else{
+else {
     console.log("tore jeno kono din aykhane na dekhi ");
 }
+
+// result end
+
+
+
+
+
+// prompt start
+// let userName = prompt("Please Enter your age")
+// console.log(userName);
+
+
+// if(userName>20){
+//     console.log("Adult");
+// }
+// else{
+//     console.log("Child");
+// }
+
+// prompt end
+
+
+
+
+
+
+
+let gender = "Male"
+let age = 20 
+let area ="Dinajpur"
+let salary = 100000
+
+if(gender == "Male"){
+
+    if(age >= 25){
+      
+        if( area =="Dinajpur"){
+
+            if(salary == 100000){
+                console.log(" Congratulations your are  selected ");
+
+            }
+            else{
+                console.log("your are not selected");
+            }
+
+        }
+        else{
+            console.log("location must be Dinajpur");
+        }
+    }
+    else{
+        console.log("25 + age must be");
+    }
+}
+
+else{
+    console.log(" must be Male candited");
+}
+
+
