@@ -79,34 +79,34 @@ else {
 
 let gender = "Male"
 let age = 25
-let area ="Dinajpur"
+let area = "Dinajpur"
 let salary = 100000
 
-if(gender == "Male"){
+if (gender == "Male") {
 
-    if(age >= 25){
-      
-        if( area =="Dinajpur"){
+    if (age >= 25) {
 
-            if(salary == 100000){
+        if (area == "Dinajpur") {
+
+            if (salary == 100000) {
                 console.log(" Congratulations your are  selected ");
 
             }
-            else{
+            else {
                 console.log("your are not selected");
             }
 
         }
-        else{
+        else {
             console.log("location must be Dinajpur");
         }
     }
-    else{
+    else {
         console.log("25 + age must be");
     }
 }
 
-else{
+else {
     console.log(" must be Male candited");
 }
 
@@ -136,7 +136,36 @@ console.log(`my name is ${names}. `);
 
 let namta = 2
 
-for(let m =1; m<11; m++){
-console.log(`${namta} X ${m} = ${namta*m}`);
+for (let m = 1; m < 11; m++) {
+    console.log(`${namta} X ${m} = ${namta * m}`);
 }
 
+
+function mysohel(S) {
+    console.log("my name is" + ' ' + S);
+}
+mysohel("sohel");
+
+
+
+    const language = ["html" ,"css","javascript"]
+    language[3]="next.js"
+    language[4]="node.js"
+    language[5]="laravel"
+
+
+    console.log(language);
+    // console.log(language[language.length-1]);
+    
+    language.unshift('basic');
+    language.pop();
+    console.log("hello");
+language.pop();
+language.join('$')
+
+const q = [2,3,4,5];
+const w = [2,3,4,5];
+const e = q.concat(w)
+e[2]="sohel"
+console.log(e);
+console.log(e[1]);
