@@ -17,7 +17,7 @@ else {
 // result start
 let results = 88
 if (results > 100) {
-    console.log("tom bohot chalak banda ho");
+    console.log("tum bohot chalak banda ho");
 }
 
 else if (results >= 0 && results < 33) {
@@ -110,4 +110,33 @@ else{
     console.log(" must be Male candited");
 }
 
+
+
+
+
+
+let names = "sohel rana"
+console.log(`my name is ${names}. `);
+
+// 7 x 1 = 7
+
+// for(let i = 1; i<11; i++){  
+//     console.log(i);
+
+// }
+
+// let L = 17.5
+
+// for(let O =1; O<11; O++){
+
+//     console.log(`${L} x ${O} = ${L*O}`);
+
+// }
+
+
+let namta = 2
+
+for(let m =1; m<11; m++){
+console.log(`${namta} X ${m} = ${namta*m}`);
+}
 
