@@ -234,3 +234,9 @@ function sssss() {
     document.getElementById('sbtn').style.color = '#ffffff';
     document.getElementById('sbtn').style.fontSize = ' 25px';
 }
+
+
+function newfrom(){
+    document.getElementById('wellcome').innerHTML = 'hello';
+} 
+
