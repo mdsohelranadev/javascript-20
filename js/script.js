@@ -258,3 +258,12 @@ console.log(Math.ceil(num1));
 
 
 
+
+function roll() {
+    let randomnumber = Math.ceil(Math.random() * 6)
+
+
+    let source = 'images/'+randomnumber + '.png';
+    document.getElementById('lodu').src = source;
+}
+
