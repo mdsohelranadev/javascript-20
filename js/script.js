@@ -258,12 +258,9 @@ console.log(Math.ceil(num1));
 
 
 
-
-function roll() {
-    let randomnumber = Math.ceil(Math.random() * 6)
-
-
-    let source = 'images/'+randomnumber + '.png';
-    document.getElementById('lodu').src = source;
+function rolldice (){
+    let lodunumber = Math.ceil(Math.random()*6)
+    let source  ='images/'+lodunumber + '.png'
+    document.getElementById('lodu').src= source; 
 }
 
