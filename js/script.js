@@ -148,24 +148,89 @@ mysohel("sohel");
 
 
 
-    const language = ["html" ,"css","javascript"]
-    language[3]="next.js"
-    language[4]="node.js"
-    language[5]="laravel"
+const language = ["html", "css", "javascript"]
+language[3] = "next.js"
+language[4] = "node.js"
+language[5] = "laravel"
 
 
-    console.log(language);
-    // console.log(language[language.length-1]);
-    
-    language.unshift('basic');
-    language.pop();
-    console.log("hello");
+console.log(language);
+// console.log(language[language.length-1]);
+
+language.unshift('basic');
+language.pop();
+console.log("hello");
 language.pop();
 language.join('$')
 
-const q = [2,3,4,5];
-const w = [2,3,4,5];
+const q = [2, 3, 4, 5];
+const w = [2, 3, 4, 5];
 const e = q.concat(w)
-e[2]="sohel"
+e[2] = "sohel"
 console.log(e);
 console.log(e[1]);
+
+let ss = ['html', 'css', 'js', 'tailwind', 'boostrap']
+console.log(ss);
+
+ss.splice(2, 0, 'sohel');
+ss.splice(1, 2,);
+console.log(ss);
+
+
+const tt = [
+    [5, 3, 2],
+    [3, 5, 8],
+    [9, 8, 2]
+]
+console.log(tt);
+// console.log(tt.flat);
+
+
+const fruits = ['mango', 'apple', 'onion']
+
+fruits.push("shoel");
+fruits.shift();
+fruits.unshift("ponapple")
+fruits.join(' $ ');
+fruits.pop();
+console.log(fruits);
+console.log(fruits.join(" $ "));
+
+
+
+
+let rahim = [40, 50, 60];
+
+let bonus = rahim.map(rahim => rahim + 5);
+
+console.log(bonus);
+
+let korim = [33, 38, 29, 59, 90]
+
+let babu = korim.filter(korim => korim == 38)
+console.log(babu);
+
+
+let numbers = [50, 80, 89]
+let total = numbers.reduce((ok, yes) => ok + yes, 0)
+console.log(total);
+
+
+
+
+function myfaq() {
+    document.getElementById('text').innerHTML = 'subcribed';
+    document.getElementById('btn').innerHTML = 'subcribed';
+    document.getElementById('btn').style.color = '#4bee00';
+    document.getElementById('btn').style.backgroundColor = '#ff0000';
+}
+
+
+
+function sssss() {
+    document.getElementById('sbtn').innerHTML = 'subcribed';
+    document.getElementById('sbtn').style.backgroundColor = '#000000';
+    document.getElementById('sbtn').style.color = '#ffffff';
+    document.getElementById('sbtn').style.fontSize = ' 25px';
+}
