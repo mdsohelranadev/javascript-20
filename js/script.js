@@ -80,7 +80,7 @@ else {
 let gender = "Male"
 let age = 25
 let area = "Dinajpur"
-let salary = 100000 
+let salary = 100000
 
 if (gender == "Male") {
 
@@ -218,23 +218,23 @@ console.log(total);
 
 
 
-document.getElementById('btn').onclick = function (){
-    document.getElementById('btn').innerHTML='subcribed😊'
+document.getElementById('btn').onclick = function () {
+    document.getElementById('btn').innerHTML = 'subcribed😊'
 }
 
 
-document.getElementById('btns').onclick = function (){
-    document.getElementById('btns').innerHTML='hello bangladesh'
+document.getElementById('btns').onclick = function () {
+    document.getElementById('btns').innerHTML = 'hello bangladesh'
 }
 
-document.getElementById('clicks').onclick = function (){
-    document.getElementById('clicks').innerHTML ="hello"
+document.getElementById('clicks').onclick = function () {
+    document.getElementById('clicks').innerHTML = "hello"
 }
- 
+
 
 let us = {
-    name:"shoel",
-    age : 115,
+    name: "shoel",
+    age: 115,
 }
 
 console.log(us['age']);
@@ -242,16 +242,19 @@ console.log(us['age']);
 
 
 
-let num1 = 15.5;
-let num2 = 15.9;
+let num1 = 15;
+let num2 = 15;
 
 console.log(Math.ceil(num1));
-console.log(Math.floor(num2));
 
-console.log(Math.round(num1));
+// console.log(Math.round(num1));
+// console.log(Math.ceil(Math.random().toFixed(2)*10));
 
 
 
-let small = prompt('Enter your name')
+// let small = prompt('Enter your name')
 
-console.log(small);
+// console.log(small);
+
+
+
