@@ -218,25 +218,16 @@ console.log(total);
 
 
 
-
-function myfaq() {
-    document.getElementById('text').innerHTML = 'subcribed';
-    document.getElementById('btn').innerHTML = 'subcribed';
-    document.getElementById('btn').style.color = '#4bee00';
-    document.getElementById('btn').style.backgroundColor = '#ff0000';
+document.getElementById('btn').onclick = function (){
+    document.getElementById('btn').innerHTML='subcribed😊'
 }
 
 
-
-function sssss() {
-    document.getElementById('sbtn').innerHTML = 'subcribed';
-    document.getElementById('sbtn').style.backgroundColor = '#000000';
-    document.getElementById('sbtn').style.color = '#ffffff';
-    document.getElementById('sbtn').style.fontSize = ' 25px';
+document.getElementById('btns').onclick = function (){
+    document.getElementById('btns').innerHTML='hello bangladesh'
 }
 
-
-function newfrom(){
-    document.getElementById('wellcome').innerHTML = 'hello';
-} 
-
+document.getElementById('clicks').onclick = function (){
+    document.getElementById('clicks').innerHTML ="hello"
+}
+ 
