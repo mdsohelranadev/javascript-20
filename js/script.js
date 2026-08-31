@@ -80,7 +80,7 @@ else {
 let gender = "Male"
 let age = 25
 let area = "Dinajpur"
-let salary = 100000
+let salary = 100000 
 
 if (gender == "Male") {
 
@@ -231,3 +231,27 @@ document.getElementById('clicks').onclick = function (){
     document.getElementById('clicks').innerHTML ="hello"
 }
  
+
+let us = {
+    name:"shoel",
+    age : 115,
+}
+
+console.log(us['age']);
+
+
+
+
+let num1 = 15.5;
+let num2 = 15.9;
+
+console.log(Math.ceil(num1));
+console.log(Math.floor(num2));
+
+console.log(Math.round(num1));
+
+
+
+let small = prompt('Enter your name')
+
+console.log(small);
