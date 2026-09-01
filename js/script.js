@@ -264,3 +264,28 @@ function rolldice (){
     document.getElementById('lodu').src= source; 
 }
 
+
+
+let sks = 15.4
+console.log(Math.ceil(sks));
+
+
+
+console.log(Math.max(20,38,28,80));
+
+
+const na = 1400;
+const dis = 58;
+const finalprice = Math.floor(na*dis/100);
+const fnp = Math.ceil(na-finalprice);
+console.log(fnp);
+
+
+
+let numb =14
+for(let m = 1; m <11; m++){
+
+    console.log(`${numb} X ${m} = ${numb *m}`);
+
+}
+
